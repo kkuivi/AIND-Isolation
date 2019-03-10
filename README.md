@@ -17,12 +17,12 @@ Students only need to modify code in the `game_agent.py` file to complete the pr
 ## Functions Implemented
 Functions I implemented are:
 
-- `MinimaxPlayer.minimax()`: implement minimax search
-- `AlphaBetaPlayer.alphabeta()`: implement minimax search with alpha-beta pruning
-- `AlphaBetaPlayer.get_move()`: implement iterative deepening search
-- `custom_score()`: implement my own best position evaluation heuristic
-- `custom_score_2()`: implement my own alternate position evaluation heuristic
-- `custom_score_3()`: implement my own alternate position evaluation heuristic
+- `MinimaxPlayer.minimax()`: minimax search algorithm
+- `AlphaBetaPlayer.alphabeta()`: minimax search with alpha-beta pruning
+- `AlphaBetaPlayer.get_move()`: iterative deepening search
+- `custom_score()`: a custom evaluation function. This is supposed to be my best position evaluation heuristic
+- `custom_score_2()`: an alternate position evaluation heuristic to "custom_score"
+- `custom_score_3()`: an alternate position evaluation heuristic to "custom_score"
 
 ### Tournament
 
